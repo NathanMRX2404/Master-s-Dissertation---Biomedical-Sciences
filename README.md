@@ -5,6 +5,7 @@ This GitHub Repository contains all Python and Jupyter notebook files as well as
 For the initial development of the calibration module, a single .raw file was analyzed for each of the datasets investigated:
 - PXD001468:  b1948_293T_proteinID_12B_QE3_122212.raw  (https://www.ebi.ac.uk/pride/archive/projects/PXD001468)
 - PXD032235:  20210120_HM_HEK_IAA_300minGr_R1.raw      (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
+After constructing and testing the mass calibration module on these inital files, in a next phase of the project all files considering human HEK cells were further reprocessed.
 
 ## Mass Calibration Pipeline Key Functionality
 ...
