@@ -20,9 +20,7 @@ The custom Python script to merge the human and contaminant sequences can be fou
 ## Mass calibration pipeline
 All Python an Jupyter Notebook files written for the construction of the mass calibration module can also be found in the "scripts" folder.
 
-The backbonde of the calibration pipeline itself was based on the 'Mass Spectrometry Workflow' Nextflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation). Extra modules including functionality to convert .xz into .raw files and to calibrate mzML files (LR and RF) were incorporated. The Nextflow script can be found in the "CalibScript.nf" file.
+The backbonde of the calibration pipeline itself was based on the 'Mass Spectrometry Workflow' Nextflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation). Extra modules including functionality to convert .xz into .raw files and to calibrate mzML files (LR and RF) were incorporated. The actual Nextflow script ("CalibScript.nf"), as well as a corresponding Nextflow script configuration file ("nextflow.config") (updated) and a parameter configuration file ("params.config") (updated) can be found in the "CalibrationModule" folder
 
-## Pipeline Requirements and Installation
-...
 ## Pipeline Schematic Representation
 ![pipeline](https://github.com/NathanMRX2404/Thesis_BiomedicalSciences_MarckxNathan/assets/119006891/7553eb76-0b04-4767-bf4f-028d807a217d)
