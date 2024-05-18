@@ -6,6 +6,7 @@ For the development of the calibration module, .raw files from the following PRI
 - PXD032235 (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
 ### Search parameters
 The following Sage search parameter JSON files were used and can be found in the "data" folder:
+
 Initial closed searches:
 - SearchClosed.json
 
