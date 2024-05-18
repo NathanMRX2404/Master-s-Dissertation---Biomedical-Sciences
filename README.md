@@ -4,8 +4,9 @@
 For the development of the calibration module, .raw files from the following PRIDE projects was used and converted to mzML format:
 - PXD001468 (https://www.ebi.ac.uk/pride/archive/projects/PXD001468)
 - PXD032235 (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
+
 ### Search parameters
-The following Sage search parameter JSON files were used and can be found in the "data" folder:
+The following Sage search parameter JSON files were used and can be found in the "data" folder.
 
 Initial closed searches:
 - SearchClosed.json
