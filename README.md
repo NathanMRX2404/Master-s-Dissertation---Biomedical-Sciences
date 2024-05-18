@@ -5,6 +5,8 @@ For the development of the calibration module, .raw files from the following PRI
 - PXD001468 (https://www.ebi.ac.uk/pride/archive/projects/PXD001468)
 - PXD032235 (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
 
+The Python scripts to calibrate all reprocessed mzML files can be found in the "scripts" folder ("LRcal.py" and "RFcal.py").
+
 ### Search parameters
 The following Sage search parameter JSON files were used and can be found in the "data" folder:
 - Initial closed searches: SearchClosed.json
