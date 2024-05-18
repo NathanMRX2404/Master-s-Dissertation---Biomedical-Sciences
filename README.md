@@ -15,10 +15,11 @@ The following Sage search parameter JSON files were used and can be found in the
 One FASTA file was consistently used through all the searches and can also be found in the "data" folder:
 - human_ref_prot_and_contaminants.fasta
 
-The custom Python script ("merge_fastas.py") to combine the human sequences ("human_reference_proteome_2024_03_06.fasta") and contaminant sequences ("GPM_crap.fasta") can be found in the "scripts" folder:
+The custom Python script to combine the human sequences and contaminant sequences ("merge_fastas.py") can be found in the "scripts" folder.
+The original human ("human_reference_proteome_2024_03_06.fasta") and contaminant ("GPM_crap.fasta") sequence FASTA files can be found in the "data" folder.
 
 ## Mass calibration pipeline
-All Python an Jupyter Notebook files written for the construction of the mass calibration module can also be found in the "scripts" folder.
+All Python an Jupyter Notebook files written for the construction of the mass calibration module can be found in the "scripts" folder.
 
 The backbonde of the calibration pipeline itself was based on the 'Mass Spectrometry Workflow' Nextflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation). Extra modules including functionality to convert .xz into .raw files and to calibrate mzML files (LR and RF) were incorporated. The actual Nextflow script ("CalibScript.nf"), as well as a corresponding Nextflow script configuration file ("nextflow.config") (updated) and a parameter configuration file ("params.config") (updated) can be found in the "CalibrationModule" folder
 
