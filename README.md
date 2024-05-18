@@ -1,15 +1,27 @@
-# Mass Spectrometry Data Cleaning for Improved Identification of Post-Translational Modifications 
-## Overview
-This GitHub Repository contains all Python and Jupyter notebook files as well as FASTA and search parameter JSON files used for the master's dissertation project "Mass Spectrometry Data Cleaning for Improved Identification of Post-Translational Modifications".
-## Datasets
-For the initial development of the calibration module, a single .raw file was analyzed for each of the datasets investigated:
-- PXD001468:  b1948_293T_proteinID_12B_QE3_122212.raw  (https://www.ebi.ac.uk/pride/archive/projects/PXD001468)
-- PXD032235:  20210120_HM_HEK_IAA_300minGr_R1.raw      (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
+# Mass Spectrometry Data Cleaning for Improved Identification of Post-Translational Modifications
+## Data
+### LC-MS data
+For the development of the calibration module, .raw files from the following PRIDE projects was used and converted to mzML format:
+- PXD001468 (https://www.ebi.ac.uk/pride/archive/projects/PXD001468)
+- PXD032235 (https://www.ebi.ac.uk/pride/archive/projects/PXD032235)
+### Search parameters
+The following Sage search parameter JSON files were used and can be found in the "data" folder:
+Initial closed searches:
+- SearchClosed.json
+Closed searches for selecting open search fragment mass tolerance window:
+- SearchClosed5ppm.json
+- SearchClosed10ppm.json
+- SearchClosed15ppm.json
+- SearchClosed20ppm.json
+- SearchClosed25ppm.json
+- SearchClosed30ppm.json
+Open searches:
+- SearchOpen.json
 
-After constructing and testing the mass calibration module on these inital files, in a next phase of the project all files considering human HEK cells were further reprocessed.
+## Mass Calibration Pipeline
+The calibration pipeline was based on the Mass Spectrometry Workflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation)
+The
 
-## Mass Calibration Pipeline Key Functionality
-...
 ## Pipeline Requirements and Installation
 ...
 ## Pipeline Schematic Representation
