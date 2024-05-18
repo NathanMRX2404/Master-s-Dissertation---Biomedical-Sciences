@@ -8,7 +8,7 @@ For the development of the calibration module, .raw files from the following PRI
 ### Search parameters
 The following Sage search parameter JSON files were used and can be found in the "data" folder:
 - Initial closed searches: SearchClosed.json
-- Closed searches for selecting open search fragment mass tolerance window: SearchClosed5ppm.json to SearchClosed30ppm.json
+- Open search window selection: SearchClosed5ppm.json to SearchClosed30ppm.json
 - Open searches: SearchOpen.json
 
 ### Sequence database
