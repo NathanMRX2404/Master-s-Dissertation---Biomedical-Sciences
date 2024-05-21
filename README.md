@@ -26,4 +26,4 @@ All Python an Jupyter Notebook files written for the construction of the mass ca
 The backbonde of the calibration pipeline itself was based on the 'Mass Spectrometry Workflow' Nextflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation). Extra modules including functionality to convert .xz into .raw files and to calibrate mzML files (LR and RF) were incorporated. The actual Nextflow script ("CalibScript.nf"), as well as a corresponding Nextflow script configuration file ("nextflow.config") can be found in the "CalibrationModule" folder
 
 ## Pipeline Schematic Representation
-![pipeline](https://github.com/NathanMRX2404/Thesis_BiomedicalSciences_MarckxNathan/assets/119006891/7553eb76-0b04-4767-bf4f-028d807a217d)
+![image](https://github.com/NathanMRX2404/Thesis_BiomedicalSciences_MarckxNathan/assets/119006891/09f2bd52-b137-4be3-b656-0cce8b16bd4e)
