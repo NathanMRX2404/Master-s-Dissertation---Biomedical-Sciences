@@ -26,7 +26,7 @@ All Python an Jupyter Notebook files written for the construction of the mass ca
 The backbonde of the calibration pipeline itself was based on the 'Mass Spectrometry Workflow' Nextflow tool from GitHub user jvdnheme (https://github.ugent.be/jvdnheme/automatic_annotation). Extra modules including functionality to convert .xz into .raw files and to calibrate mzML files (LR and RF) were incorporated. The actual Nextflow script ("CalibScript.nf"), as well as a corresponding Nextflow script configuration file ("nextflow.config") can be found in the "CalibrationModule" folder
 
 ## Requirements
-- Docker (for ThermoRawFileParser, tdf2mzml.py, SAGE (Spectra Annotated with Glycans), ms2rescore (optional), FlashLFQ (optional)
+- Docker (for ThermoRawFileParser, tdf2mzml.py, SAGE (Spectra Annotated with Glycans), ms2rescore (optional), FlashLFQ (optional))
 - Python 3.8 or higher
 - Nextflow
 
